@@ -4,6 +4,8 @@ package by.htp.les02.main;
 Вычислить значение выражения по формуле (все пернеменные принимают действительные значения):
 (b + sqrt(b^2 + 4*a*c)) / 2a - a^3*c + b^(-2)
  */
+//Ctrl + Shift + F
+
 public class Task01 {
     public static void main(String[] args) {
         double b = 10;

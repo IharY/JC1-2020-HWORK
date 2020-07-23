@@ -5,13 +5,13 @@ package by.htp.les02.main;
  */
 
 public class Task02 {
-    public static void main(String args []){
-    double a = 1;
-    double b = 1;
-    double c = 1;
-    double d = 1;
-    double result;
-    result = (a/c) * (b/d) - (a*b - c) / (c*d);
-    System.out.println(result);
-    }
+	public static void main(String args[]) {
+		double a = 1;
+		double b = 1;
+		double c = 1;
+		double d = 1;
+		double result;
+		result = (a / c) * (b / d) - (a * b - c) / (c * d);
+		System.out.println(result);
+	}
 }
