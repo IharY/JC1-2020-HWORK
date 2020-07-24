@@ -11,8 +11,8 @@ public class Task14 {
 		Scanner sc = new Scanner(System.in);
 		int variable;
 		System.out.println("Введите любое целое цисло до 20:");
-		variable = sc.nextInt();
-		int factorial = 1;
+		variable = sc.nextInt(); 
+		long factorial = 1; // при значении variable>20 уже не хватает лонга !!
 		for (int i = variable; i > 0; i--) {
 			factorial *= i;
 		}
